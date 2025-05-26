@@ -15,6 +15,7 @@
       background-color: #f4f4f4;
       font-family: Arial, sans-serif;
       text-align: center;
+      position: relative;
     }
 
     h1 {
@@ -44,11 +45,85 @@
     button:hover {
       background-color: #45a049;
     }
+
+    .ad-top {
+      position: absolute;
+      top: 10px;
+    }
+
+    .ad-left {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .ad-right {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .ad-bottom {
+      position: absolute;
+      bottom: 10px;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Ad 2: Top banner (728x90) -->
+  <div class="ad-top">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '7bb5564575a604109bf3fa2efb2df5e2',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//decomposemanly.com/7bb5564575a604109bf3fa2efb2df5e2/invoke.js"></script>
+  </div>
+
+  <!-- Ad 3: Left side (160x600) -->
+  <div class="ad-left">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'd7e29c2207f0b636d64926240b299f94',
+        'format' : 'iframe',
+        'height' : 600,
+        'width' : 160,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//decomposemanly.com/d7e29c2207f0b636d64926240b299f94/invoke.js"></script>
+  </div>
+
+  <!-- Ad 1: Right side (300x250) -->
+  <div class="ad-right">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '537860bd5e1963bdc219e7464175b901',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//decomposemanly.com/537860bd5e1963bdc219e7464175b901/invoke.js"></script>
+  </div>
+
+  <!-- Main Content -->
   <h1>Redirecting...</h1>
   <p>In order to get the vie faucet points, <a href="https://instameads.netlify.app">click here</a>.</p>
   <button>CLICK ME TO COMPLETE CAPTCHA TO GET REWARDED</button>
+
+  <!-- Ad 4: Bottom script -->
+  <div class="ad-bottom">
+    <script type='text/javascript' src='//decomposemanly.com/bc/ee/f6/bceef6402853ac66af9f6cbf7d82766f.js'></script>
+  </div>
+
 </body>
 </html>
